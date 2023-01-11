@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 export const Statistics =({stats, title})=>(
 <section className={css.statistics}>
-<StatTitle title={title}></StatTitle>
+<StatTitle title={title && title}></StatTitle>
 <Statlist stats={stats}></Statlist>
 </section>
 )
