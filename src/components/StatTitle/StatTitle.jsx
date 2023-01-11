@@ -2,8 +2,7 @@ import css from './StatTitle.module.css';
 import PropTypes from 'prop-types';
 
 export const StatTitle = ({ title }) => {
-  // return <>{title.length > 0 && <h2 className={css.title}>{title}</h2>}</>;
-  return <>{<h2 className={css.title}>{title}</h2>}</>
+  <h2 className={css.title}>{title}</h2>
 };
 
 StatTitle.propTypes = {
